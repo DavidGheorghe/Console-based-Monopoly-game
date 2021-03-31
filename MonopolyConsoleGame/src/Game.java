@@ -265,7 +265,7 @@ public class Game {
 		
 	/**
 	 * @param pr
-	 * @return the player who owns the property @param pr
+	 * @return the player who owns the property pr
 	 */
 	public static Player getPlayer(Property pr) {
 		Player ply = new Player();
@@ -279,7 +279,7 @@ public class Game {
 	
 	/**
 	 * @param pl
-	 * @return the number of stations owned by the player @param pl
+	 * @return the number of stations owned by the player pl
 	 */
 	public static int getNumberOfStationsOwned(Player pl) {
 		int nb = 0;
@@ -294,7 +294,7 @@ public class Game {
 	
 	/**
 	 * @param pl
-	 * @return the number of utilities(electric and water property) owned by player @param pl
+	 * @return the number of utilities(electric and water property) owned by player pl
 	 */
 	public static int getNumberOfUtilitiesOwned(Player pl) {
 		int nb = 0;
